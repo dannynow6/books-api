@@ -1,0 +1,7 @@
+dan_env 
+db.sqlite3
+notes.txt
+manage.py
+books_backend/__init__.py
+books_backend/asgi.py
+books_backend/wsgi.py 
