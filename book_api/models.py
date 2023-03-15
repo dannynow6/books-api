@@ -22,7 +22,7 @@ class Book(models.Model):
     title = models.CharField(max_length=300)
     genre = models.CharField(max_length=100)
     date_published = models.DateField()
-    author = models.ForeignKey("Author", on_delete=models.CASCADE)
+    author = models.ForeignKey("Author", on_delete=models.CASCADE, default="D. G.")
     isbn = models.CharField(max_length=50, blank=True)
     publisher = models.CharField(max_length=300, blank=True)
     format = models.CharField(max_length=75, blank=True)
